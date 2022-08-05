@@ -51,7 +51,7 @@ header{
   left: 0px; 
   margin-top: -8px;
   margin-left: 0px;
-  margin-bottom: -42px;
+
 }
 footer{
   margin: -8px;
@@ -474,6 +474,7 @@ section {
   margin-left: 10%;
 }
 .content2{
+  margin-top: 58px;
 }
 
 /*
