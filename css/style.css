@@ -39,7 +39,6 @@
   }
 
 header{
-  position:fixed;
   padding: 0px;
   display: flex;
   height: 60px;
@@ -48,11 +47,11 @@ header{
   justify-content: flex-end;
   align-items: center;
   z-index: 9999;
-  position: fixed;
   top: 0px;
   left: 0px; 
   margin-top: -8px;
   margin-left: 0px;
+  margin-bottom: -42px;
 }
 footer{
   margin: -8px;
@@ -473,6 +472,8 @@ section {
   font-family: serif;
   color: #FFF;
   margin-left: 10%;
+}
+.content2{
 }
 
 /*
