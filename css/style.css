@@ -234,6 +234,9 @@ animation :infinity-scroll-left 40s infinite linear 0.5s both;
 .d-demo__item > img{
    width: 100%;
 }
+.d-demo{
+  margin-top: 7px;
+}
 
 body{
   margin-left: 0px;
