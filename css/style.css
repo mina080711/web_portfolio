@@ -477,6 +477,9 @@ section {
   margin-top: 58px;
 }
 
+body{
+  margin-right: -8px;
+}
 /*
 #contact{
   height: 200%;
