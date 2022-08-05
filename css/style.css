@@ -144,7 +144,7 @@ footer{
 
 /*=== 画像の設定 ======================================= */
 .imgs {
-  margin-top: -58px;
+  margin-top: -56px;
   display    : inline;
   position   : absolute;
   /* 画像のサイズを表示エリアに合せる */
