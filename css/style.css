@@ -81,6 +81,7 @@ footer{
 .name:hover{
   color: #FF00FF;
 }
+/*PC用*/
 .slide{
     width: 74.59375%;
 }
@@ -96,12 +97,59 @@ footer{
   float: right;
 }
 .img_all{
-
   margin: 0px;
   padding: 0px;
   width: 100%;
   height: auto;
 }
+/*スマホ用*/
+.slide_sp{
+  width: 99.7584%;
+}
+.logo_sp{
+margin-top: -58px;
+  width: 0%;
+  float: left; 
+  display: inline;
+}
+.side_line_sp{
+  margin-top: -58px;
+  width: 0.24154589%;
+  float: left;
+}
+.img_all_sp{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
+.imgs {
+  margin-top: -56px;
+  display    : inline;
+  position   : absolute;
+  /* 画像のサイズを表示エリアに合せる */
+  width      : inherit;
+  height     : inherit;
+  opacity    : 0;
+  animation  : slideAnime 16s ease infinite;
+}
+/*=== スライドのアニメーションを段差で開始する ========= */
+.slide img:nth-of-type(1) { animation-delay: 0s }
+.slide img:nth-of-type(2) { animation-delay: 4s }
+.slide img:nth-of-type(3) { animation-delay: 8s }
+.slide img:nth-of-type(4) { animation-delay: 12s }
+ 
+ /*=== スライドのアニメーション ========================= */
+@keyframes slideAnime{
+   0% { opacity: 0; transform: rotateY(90deg) }
+   4% { opacity: 1; transform: rotateY(0deg)  }
+  21% { opacity: 1; transform: rotateY(0deg)  }
+  25% { opacity: 0; transform: rotateY(90deg) }
+ 100% { opacity: 0; transform: rotateY(90deg) }
+}
+
+
+
 .tags{
   font-family: serif;
   text-align: center;
@@ -132,7 +180,7 @@ footer{
   display: inline-block;
 }
 /*=== 画像の設定 ======================================= */
-.imgs {
+.imgs_sp {
   margin-top: -56px;
   display    : inline;
   position   : absolute;
@@ -143,10 +191,10 @@ footer{
   animation  : slideAnime 16s ease infinite;
 }
 /*=== スライドのアニメーションを段差で開始する ========= */
-.slide img:nth-of-type(1) { animation-delay: 0s }
-.slide img:nth-of-type(2) { animation-delay: 4s }
-.slide img:nth-of-type(3) { animation-delay: 8s }
-.slide img:nth-of-type(4) { animation-delay: 12s }
+.slide_sp img:nth-of-type(1) { animation-delay: 0s }
+.slide_sp img:nth-of-type(2) { animation-delay: 4s }
+.slide_sp img:nth-of-type(3) { animation-delay: 8s }
+.slide_sp img:nth-of-type(4) { animation-delay: 12s }
  
  /*=== スライドのアニメーション ========================= */
 @keyframes slideAnime{
