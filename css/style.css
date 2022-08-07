@@ -103,6 +103,9 @@ footer{
   height: auto;
 }
 /*スマホ用*/
+.logo2{
+  width: 100%;
+}
 .slide_sp{
   width: 99.7584%;
 }
@@ -506,3 +509,25 @@ section {
 }
 
 
+/*ローディングアニメーション用*/
+.start {
+	background: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9000;
+}
+.start p {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-60%, -40%);
+	display: none;
+	width: 50%;
+}
+.start_img{
+  width: 120%;
+  height: auto;
+}
